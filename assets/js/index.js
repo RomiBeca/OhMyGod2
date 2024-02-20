@@ -6,10 +6,16 @@ const hidden_r1 = document.getElementById('hidden-response-1')
 const activarFlex = document.getElementById('flexbox-activate')
 const boxFlex = document.getElementById('box-flex')
 const hiddenFlexbox = document.getElementById('hidden-flexbox-section')
+
+//playground con cajas de imagenes
+
 const justifyContent = document.querySelectorAll('input[type="radio"][name="justify-content"]');
 const alignItems = document.querySelectorAll('input[type="radio"][name="align-items"]');
 const flexDirection = document.querySelectorAll('input[type="radio"][name="flex-direction"]');
 const playground = document.getElementById('playground-flexbox')
+
+//playground con cajas de texto sin imagenes
+
 const justifyContent2 = document.querySelectorAll('input[type="radio"][name="justify-content2"]');
 const alignItems2 = document.querySelectorAll('input[type="radio"][name="align-items2"]');
 const flexDirection2 = document.querySelectorAll('input[type="radio"][name="flex-direction2"]');
