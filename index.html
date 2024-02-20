@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh Dios Mio!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>🙏 - Oh Dios Mio!</h1>
+
+        <h2>¿como se hacia?</h2>
+
+    </header>
+    <div class="container">
+
+        <section>
+            <p>¿Como centro mi contenido con margenes en los lados para que no quede pegado en las orillas, porque
+                honestamente no me gusta que se vea asi?</p>
+            <div>
+                <div class="mock-container">
+                    <div class="ex-navbar">🙏 - Oh my God! (imaginen que este es el navbar)</div>
+                    <div id="mock1" class="ex-content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error alias minus quisquam, earum
+                            commodi nemo veritatis dolorem. Molestiae est nulla dicta non eos odit. Itaque amet non
+                            perspiciatis at culpa natus tenetur, placeat molestiae voluptates, dolorem quos doloribus.
+                            Voluptate delectus corporis, consequuntur provident sint et voluptatem enim aspernatur
+                            voluptatibus quidem unde corrupti at quod error ea velit temporibus. Labore cupiditate nulla
+                            ducimus iste provident quos? Est labore vel possimus numquam tenetur quaerat, dolores
+                            nostrum
+                            non veniam soluta molestias exercitationem unde adipisci minus, quam maxime qui, accusamus
+                            ullam. Autem, sed ratione? Aliquid quidem iure ea, nihil mollitia quis harum impedit ad./p>
+                    </div>
+                    <div class="ex-footer">®️ Mi Persona (imaginen que este es el footer)</div>
+                </div>
+                <div>
+                    <h3>¿Que clase de bootstrap puedo agregar?</h3>
+                    <form name="primerapregunta" id="boton-pregunta-1">
+                        <label for="pregunta1">Respuesta</label>
+                        <input id="pregunta1" name="respuesta1" type="text">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Pero, no quiero usar bootstrap, ¿como lo puedo hacer con css?</h3>
+                    <button id="show-response-1">no lo se, ¿como se hace?</button>
+                    <div id="hidden-response-1" class="hidden-response">
+                        <p>una manera de hacerlo, es dar un ancho al contenedor en porcentaje, y centrarlo con el
+                            margin, por ejemplo:</p>
+                        <div class="code-container">
+                            <code>
+        .container {
+            width: 95%;
+            margin-inline: auto;
+        }
+                            </code>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section>
+            <h2>¿Que es flexbox y porque todos hablan de ello? ¡¿AH?!</h2>
+            <div>
+                <div>
+                    <div>
+                        <p>Imagina que tienes un espacio dentro de tu pagina.</p>
+                    </div>
+                    <div class="box_1">
+
+                    </div>
+                    <p>Es una caja bonita, nada que decir al respecto, pero le falta algo, por ejemplo, le faltan las
+                        fotos de las evoluciones de eevee.</p>
+                    <div class="box_1">
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <p>Uufff... son mas de las que recordaba.</p>
+                <p>Ahora se ve mejor, pero coloque cada etiqueta 'img' dentro de un div, por si despues quiero agregarle
+                    algo a cada una, su tipo ejemplo, informacion importante.</p>
+                <div class="code-container">
+                    <code>
+    &lt;div class="box_1"&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt=""&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+                        
+                    </code>
+                </div>
+                <p>Pero al hacerlo, las imagenes quedan montadas una sobre otra(dado que el display por defecto de los
+                    'div' es de tipo block)
+                    y quiero que se vean una al lado de la otra
+                </p>
+                <p>Podria hacerlo con... FLEXBOX?!</p>
+
+                <input id="flexbox-activate" type="checkbox">
+                <label for="flexbox-activate">Activar FLEXBOX?🔥🔥🔥 (le agrega la propiedad 'display: flex;' al
+                    contenedor(que tiene la clase box_1)</label>
+                <div id="box-flex" class="box_1">
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt="">
+                    </div>
+                </div>
+                <div style="display: none;" id="hidden-flexbox-section">
+                    <p>Pulento...</p>
+                    <p>Ahora quiero centrarlos... o acomodarlos... si pudiera ir viendo los cambios que quiero hacer...
+                    </p>
+                    <p>El codigo hasta ahora se ve asi:</p>
+                    <div class="code-container">
+                        <code>
+    &lt;div class="box_1"&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt=""&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+                        
+                    </code>
+                    </div>
+                    <p>Y el css se ve asi</p>
+                    <div class="code-container">
+                        <code>
+    .box_1 {
+        background-color: white;
+        width: 800px;
+        height: 600px;
+        border: 2px solid black;
+        display: flex;
+    }
+
+                    </code>
+                    </div>
+                    <p>Por suerte, aqui te dejo un playground con las opciones mas basicas:</p>
+                    <div>
+                        <p>justify-content: </p>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content" value="center"> center;
+                        </label>
+                        <label for="justify-content">
+                            <input checked type="radio" name="justify-content" value="flex-start"> flex-start;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content" value="flex-end"> flex-end;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content" value="space-around"> space-around;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content" value="space-between"> space-between;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content" value="space-evenly"> space-evenly;
+                        </label>
+                    </div>
+                    <div>
+                        <p>flex-direction: </p>
+                        <label for="justify-content">
+                            <input checked type="radio" name="flex-direction" value="row"> row;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction" value="column"> column;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction" value="column-reverse"> column-reverse;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction" value="row-reverse"> row-reverse;
+                        </label>
+                    </div>
+                    <div>
+                        <p>align-items: </p>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items" value="center"> center;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items" value="flex-start"> flex-start;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items" value="flex-end"> flex-end;
+                        </label>
+                        <label for="justify-content">
+                            <input checked type="radio" name="align-items" value="stretch"> stretch;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items" value="baseline"> baseline;
+                        </label>
+                    </div>
+                    <div id="playground-flexbox" class="box_1 flex">
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png" alt="">
+                        </div>
+                    </div>
+                    <h2>Pero no todo en la vida es Pokémon...</h2>
+                    <p>asi que lo que vamos a hacer es... lo mismo, pero con cajas vacias, que fome igual... </p>
+                    <div>
+                        <p>justify-content: </p>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content2" value="center"> center;
+                        </label>
+                        <label for="justify-content">
+                            <input checked type="radio" name="justify-content2" value="flex-start"> flex-start;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content2" value="flex-end"> flex-end;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content2" value="space-around"> space-around;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content2" value="space-between"> space-between;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="justify-content2" value="space-evenly"> space-evenly;
+                        </label>
+                    </div>
+                    <div>
+                        <p>flex-direction: </p>
+                        <label for="justify-content">
+                            <input checked type="radio" name="flex-direction2" value="row"> row;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction2" value="column"> column;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction2" value="column-reverse"> column-reverse;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="flex-direction2" value="row-reverse"> row-reverse;
+                        </label>
+                    </div>
+                    <div>
+                        <p>align-items: </p>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items2" value="center"> center;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items2" value="flex-start"> flex-start;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items2" value="flex-end"> flex-end;
+                        </label>
+                        <label for="justify-content">
+                            <input checked type="radio" name="align-items2" value="stretch"> stretch;
+                        </label>
+                        <label for="justify-content">
+                            <input type="radio" name="align-items2" value="baseline"> baseline;
+                        </label>
+                    </div>
+                    <div id="playground-flexbox2" class="box_1 flex2">
+                        <div>
+                            1
+                        </div>
+                        <div>
+                            2
+                        </div>
+                        <div>
+                            3
+                        </div>
+                        <div>
+                            4
+                        </div>
+                        <div>
+                            5
+                        </div>
+                        <div>
+                            6
+                        </div>
+                        <div>
+                            7
+                        </div>
+                        <div>
+                            8
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+            <h2>Ahora te toca a ti!!!</h2>
+
+            <p>agrega algo...</p>
+        </section>
+
+
+
+    </div>
+
+    <footer>
+        <span>®️ Mi Persona (imaginen que este es el footer)</span>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+
+
+</body>
+
+</html>
