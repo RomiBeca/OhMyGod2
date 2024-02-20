@@ -1,1 +1,1 @@
-[title](https://felipegalarce.github.io/OhMyGod/)
+[Link a la GithubPage](https://felipegalarce.github.io/OhMyGod/)
